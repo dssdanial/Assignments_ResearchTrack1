@@ -1,6 +1,6 @@
 ## First Assignment- Research Track 1- The University of Genova
 
-Python Robotics Simulator ![alt text](https://github.com/DssDanial/Research_Track)
+Python Robotics Simulator ![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/robot.png)
 ================================
 
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
