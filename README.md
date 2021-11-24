@@ -1,4 +1,5 @@
 ## First Assignment- Research Track 1- The University of Genova
+================================
 
 Python Robotics Simulator ![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/robot.png)
 ================================
@@ -17,7 +18,7 @@ The simulator requires a Python 2.7 installation, the [pygame](http://pygame.org
 
 To run the script in the simulator, use `run.py`, passing it the file names. 
 
-```bash
+```python
 $ python run.py Assignment.py
 ```
 
@@ -32,14 +33,14 @@ Main Functions
 ---------
 
 * Drive motors:
-```bash
+```python
 $ drive(speed, seconds)
 ```
 By setting the "speed", it is possible to define the linear velocity of the robot. "seconds" indicates the duration of the generated speed.
 
 * Rotation:
 
-```bash
+```python
 $ turn(speed, seconds)
 ```
 By setting the "speed", it is possible to define the angular velocity of the robot. "seconds" indicates the duration of the generated speed.
@@ -47,7 +48,7 @@ By setting the "speed", it is possible to define the angular velocity of the rob
 
 * finding Silver tokens:
 
-```bash
+```python
 $ find_silver_token()
 ```
 Generate the rotation and distance form the Silver Token respect to the robot.
@@ -58,7 +59,7 @@ Retuens:
 
 * Obstacle avoidance:
 
-```bash
+```python
 $ find_golden_token()
 ```
 find golden tokens and allocate the rotations to different zones to detect the distance of golden tokens respect to the robot.
@@ -71,7 +72,7 @@ angle and distance of
 
 * Token availability:
 
-```bash
+```python
 $ Token_check(dist, rot_y,front_obs_dis,left_obs_dis right_obs_dis)
 ```
 Detect and check whether the golden token is between the robot and silver token or not. 
@@ -81,13 +82,17 @@ Detect and check whether the golden token is between the robot and silver token 
 A while()-loop to control and navigate the robot in the right path to satisfy all desiered purposes.
 
 
+## Simulation and Results:
+================================
+![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/Rec0004.mp4)
 
-Robot API
+
+## Robot API
 ---------
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
-### Motors ###
+* Motors
 
 The simulated robot has two motors configured for skid steering, connected to a two-output [Motor Board](https://studentrobotics.org/docs/kit/motor_board). The left motor is connected to output `0` and the right motor to output `1`.
 
@@ -98,7 +103,7 @@ R.motors[0].m0.power = 25
 R.motors[0].m1.power = -25
 ```
 
-### The Grabber ###
+* The Grabber 
 
 The robot is equipped with a grabber, capable of picking up a token which is in front of the robot and within 0.4 metres of the robot's centre. To pick up a token, call the `R.grab` method:
 
@@ -112,7 +117,8 @@ To drop the token, call the `R.release` method.
 
 Cable-tie flails are not implemented.
 
-### Vision ###
+
+* Vision
 
 To help the robot find tokens and navigate, each token has markers stuck to it, as does each wall. The `R.see` method returns a list of all the markers the robot can see, as `Marker` objects. The robot can only see markers which it is facing towards.
 
@@ -145,5 +151,3 @@ for m in markers:
 ```
 
 [sr-api]: https://studentrobotics.org/docs/programming/sr/
-# Assignments_ResearchTrack1
-# Assignments_ResearchTrack1
