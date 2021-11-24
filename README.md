@@ -85,7 +85,7 @@ A while()-loop to control and navigate the robot in the right path to satisfy al
 ## Simulation and Results:
 ================================
 Play the recorded video to see the results.
-https://youtu.be/OMSlYJgPOOI 
+![alt text](https://youtu.be/OMSlYJgPOOI) 
 
 
 ## Robot API
