@@ -25,7 +25,7 @@ $ python run.py Assignment.py
 ================================
 
 * Flowchart:
-[alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/Flowchart.png)
+ ![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/Flowchart.png)
 
 
 Main Functions
