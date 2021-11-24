@@ -22,6 +22,11 @@ $ python run.py Assignment.py
 ```
 
 ## Code Description:
+================================
+
+* Flowchart:
+[alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/Flowchart.png)
+
 
 Main Functions
 ---------
