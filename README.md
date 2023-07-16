@@ -1,13 +1,8 @@
-## Second Assignment- Research Track 2- The University of Genova
-================================
-
-Python Robotics Simulator ![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/robot.png)
-================================
-
+## Second Assignment- Research Track 2- The University of Genova 
+![alt text](https://github.com/dssdanial/Assignments_ResearchTrack1/blob/main/sr/robot.png) 
 ## Statistical Analysis
-
 This is a simple, portable robot simulator developed by [Student Robotics](https://studentrobotics.org).
-Some of the arenas and the exercises have been modified for the Research Track I course.
+Some of the arenas and exercises have been modified for the Research Track I course.
 
 Here's a brief summary of the report:
 
